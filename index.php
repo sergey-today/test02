@@ -28,7 +28,7 @@
 					</span>
 				</div>
 			</div>
-			<div class="product__delivery" data-region="<? echo ($_COOKIE['region']) ? $_COOKIE['region'] : 'Абакан' ?>">
+			<div class="product__delivery" data-region="<? echo (isset($_COOKIE['region'])) ? $_COOKIE['region'] : 'Абакан' ?>">
 				<div class="product_font-size_18 product_color_grey product_font-weight_600">Регион доставки:&#160;&#160;&#160;<span class="product__delivery-region product_color_black product_text-decoration_underline-dashed product_font-weight_800"></span></div>
 				<div class="product__delivery-region-list">
 					<ul>
